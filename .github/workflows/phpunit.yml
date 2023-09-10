@@ -1,11 +1,11 @@
 on:
   push:
     branches:
-      - v5-develop
-      - v5-stable
+      - main
+      - jiawenutar-alert
   pull_request:
     branches:
-      - v5-develop
+      - main
 
 name: phpunit
 jobs:
