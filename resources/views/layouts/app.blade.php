@@ -38,7 +38,7 @@
                     {{ config('app.name', 'Laravel') }}
                 </a>
                 @auth("user")
-                    You're a user!
+                    You're a user!!!
                 @endauth
 
                 @auth("contact")
